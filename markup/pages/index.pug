@@ -1,0 +1,24 @@
+doctype html
+html(lang="ru")
+    include ../components/footer/scripts/scripts.pug
+    include ../components/head/head.pug
+    include ../components/footer/footer.pug
+    include ../components/logo/logo.pug
+    include ../components/menu/menu.pug
+    include ../components/breadcrumbs/breadcrumbs.pug
+    include ../components/header/header.pug
+
+    head
+        +head(head.defaults)
+    body
+        .wrapper
+            +header()
+            section.content
+                aside.sidebar
+                main.main-content
+                +breadcrumbs(breadcrumbs.index)
+
+        .footer
+            +footer()
+
+        +scripts()
