@@ -1,12 +1,12 @@
 
-$footer-height: 60px;
-$container-width: 1256px;
+$footer_height: 60px;
+$container_width: 1256px;
 $placeholder-color: blue;
 
 /******************* Основные стили *******************/
 
 .container {
-    width: $container-width;
+    width: $container_width;
     padding: 0 5px;
 }
 
@@ -36,10 +36,10 @@ body {
 }
 
 body {
-    min-width: $container-width;
+    min-width: $container_width;
     font-family: "#", sans-serif;
     color: black;
-    background: -webkit-linear-gradient(top, #ebf1f6 0%,#abd3ee 50%,#89c3eb 51%,#d5ebfb 100%);
+    //background: -webkit-linear-gradient(top, #ebf1f6 0%,#abd3ee 50%,#89c3eb 51%,#d5ebfb 100%);
     font-size: 16px;
 }
 
